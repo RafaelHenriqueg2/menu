@@ -1,0 +1,30 @@
+:root{
+    --cor_fundo:darkgray;
+    --cor_letra:#072f4e;
+    --cor_div:#cfd8dc;
+    --cor_butao:#aa1f2b;
+
+
+}
+
+.prin{
+    background-color: var(--cor_fundo);
+    color: var(--cor_letra);
+    height: 500px;
+    text-align: center;
+
+}
+#cachaça{
+    background-color: var(--cor_butao);
+    font-size: 35px;
+}
+
+#pinga{
+    background-color: var(--cor_butao);
+    font-size: 35px;
+}
+
+#puta{
+    background-color: var(--cor_butao);
+    font-size: 35px;
+}
