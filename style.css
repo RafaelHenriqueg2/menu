@@ -1,30 +1,51 @@
-:root{
-    --cor_fundo:darkgray;
-    --cor_letra:#072f4e;
-    --cor_div:#cfd8dc;
-    --cor_butao:#aa1f2b;
+:root {
+    --cor_fundo: darkgray;
+    --cor_letra: #072f4e;
+    --cor_div: #cfd8dc;
+    --cor_butao: #aa1f2b;
 
 
 }
 
-.prin{
-    background-color: var(--cor_fundo);
-    color: var(--cor_letra);
-    height: 500px;
+h1 {
+    font-size: 35px;
     text-align: center;
-
+    border-color: #072f4e;
+    color: #072f4e;
 }
-#cachaça{
+
+.prin {
+    background-color: coral;
+    color: var(--cor_letra);
+    border-radius: 30px;
+    text-align: center;
+    height: 500px;
+}
+
+.botao {
+    width: 631px;
+    height: 70px;
+ 
+}
+
+#cachaça {
     background-color: var(--cor_butao);
     font-size: 35px;
 }
 
-#pinga{
+#pinga {
     background-color: var(--cor_butao);
     font-size: 35px;
 }
 
-#puta{
+#puta {
     background-color: var(--cor_butao);
     font-size: 35px;
+}
+
+body {
+    background-color:purple;
+}
+.botao :first-child{
+    border-radius: 30% 0 0 0;
 }
