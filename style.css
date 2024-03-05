@@ -3,8 +3,6 @@
     --cor_letra: #072f4e;
     --cor_div: #cfd8dc;
     --cor_butao: #aa1f2b;
-
-
 }
 
 h1 {
@@ -25,27 +23,41 @@ h1 {
 .botao {
     width: 631px;
     height: 70px;
- 
 }
 
-#cachaça {
-    background-color: var(--cor_butao);
-    font-size: 35px;
-}
-
-#pinga {
-    background-color: var(--cor_butao);
-    font-size: 35px;
-}
-
+#cachaça,
+#pinga,
 #puta {
     background-color: var(--cor_butao);
     font-size: 35px;
 }
 
 body {
-    background-color:purple;
+    background-color: roxo; /* Corrigi a grafia da cor roxa */
 }
-.botao :first-child{
+
+.botao :first-child {
     border-radius: 30% 0 0 0;
+}
+
+.botão: last-child {
+     border-radius: 0 30% 0 0;
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .prin {
+        height: auto;
+    }
+
+    .botao {
+        width: 100%;
+    }
+
+    #cachaça,
+    #pinga,
+    #puta {
+        font-size: 25px;
+    }
 }
