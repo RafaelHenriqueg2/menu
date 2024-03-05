@@ -42,6 +42,8 @@ body {
 
 .botão: last-child {
      border-radius: 0 30% 0 0;
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 28px;
