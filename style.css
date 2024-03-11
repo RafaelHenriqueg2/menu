@@ -23,25 +23,23 @@ h1 {
 .botao {
     width: 631px;
     height: 70px;
+    background-color: var(--cor_butao);
 }
 
-#cachaça,
-#pinga,
-#puta {
-    background-color: var(--cor_butao);
-    font-size: 35px;
-}
+
 
 body {
-    background-color: roxo; /* Corrigi a grafia da cor roxa */
+    background-color: roxo;
+    
+
 }
 
-.botao :first-child {
+.botao:first-child {
     border-radius: 30% 0 0 0;
 }
 
-.botão: last-child {
-     border-radius: 0 30% 0 0;
+.botao:last-child {
+    border-radius: 0 30% 0 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -62,4 +60,9 @@ body {
     #puta {
         font-size: 25px;
     }
+}
+
+.acionado{
+    background-color: #072f4e;
+    color: #cfd8dc;
 }
