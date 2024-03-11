@@ -55,6 +55,6 @@ body {
 }
 
 .acionado {
-    background-color: #27AE60;
+    background-color:var(--cor_div);
     color: #F8F4E3;
 }
