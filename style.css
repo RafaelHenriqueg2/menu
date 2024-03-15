@@ -1,8 +1,8 @@
 :root {
     --cor_fundo: #F8F4E3;
-    --cor_letra: #2C3E50;
+    --cor_letra: #102538;
     --cor_div: #3498DB;
-    --cor_botao: #27AE60;
+    --cor_botao: #0878ff;
 }
 
 h1 {
@@ -12,19 +12,18 @@ h1 {
 }
 
 .prin {
-    background-color: #F39C12;
+    background-color: #102538;
     color: var(--cor_letra);
     border-radius: 30px;
     text-align: center;
-    height: 500px;
+    height: 600px;
 }
 
 .botao {
-    width: calc(33.33% - 20px);
-    height: 70px;
     background-color: var(--cor_botao);
-    margin: 10px;
     color: var(--cor_letra);
+    width: 438px;
+    height: 40px;
 }
 
 body {
@@ -32,11 +31,11 @@ body {
 }
 
 .botao:first-child {
-    border-radius: 30px 0 0 30px;
+    border-radius: 30px 0 0 0;
 }
 
 .botao:last-child {
-    border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 0 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -57,4 +56,10 @@ body {
 .acionado {
     background-color:var(--cor_div);
     color: #F8F4E3;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
 }
